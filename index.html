@@ -3,12 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>UniLife Blog</title>
+  <title>UniLife</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>UniLife Blog</h1>
     <nav>
       <a href="index.html">Home</a>
       <a href="about.html">About</a>
@@ -17,27 +16,30 @@
     </nav>
   </header>
 
-  <section class="hero-background">
-    <h1>Welcome to UniLife</h1>
-    <p>Empowering your university journey — one post at a time.</p>
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Welcome to UniLife</h1>
+      <p>Your guide through university life</p>
+      <a href="blog.html" class="cta-btn">Explore Our Blog</a>
+    </div>
   </section>
 
   <section class="featured-posts">
-    <article>
-      <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?auto=format&fit=crop&w=800&q=80" alt="Time Management">
-      <h2>Time Management Tips for Students</h2>
-      <p>Master productivity with the Pomodoro technique, prioritize tasks, and avoid multitasking to boost focus and academic success.</p>
-    </article>
-    <article>
-      <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Student Budgeting">
-      <h2>How to Budget as a Student</h2>
-      <p>Track expenses, make meal plans, and use budgeting apps to stay financially savvy while enjoying your student life.</p>
-    </article>
-    <article>
-      <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Study Habits">
-      <h2>Top 5 Study Habits for Exam Success</h2>
-      <p>Space out your learning sessions, use active recall, and minimize distractions to ace your exams efficiently.</p>
-    </article>
+    <h2>Featured Posts</h2>
+    <div class="posts-grid">
+      <div class="post-card">
+        <img src="images/post1.jpg" alt="Post 1">
+        <h3><a href="#">How to Manage Your Time</a></h3>
+      </div>
+      <div class="post-card">
+        <img src="images/post2.jpg" alt="Post 2">
+        <h3><a href="#">Budgeting for Students</a></h3>
+      </div>
+      <div class="post-card">
+        <img src="images/post3.jpg" alt="Post 3">
+        <h3><a href="#">Mental Wellness Tips</a></h3>
+      </div>
+    </div>
   </section>
 
   <footer>
