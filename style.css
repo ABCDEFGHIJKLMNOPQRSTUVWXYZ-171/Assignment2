@@ -26,8 +26,10 @@ nav a {
   background-size: cover;
   background-position: center;
   height: 300px;
-  color: white;
+  color: white; /* Ensure text is white */
   text-align: center;
+  padding: 50px 20px; /* Add padding to make the text centered properly */
+  box-sizing: border-box; /* Ensure padding doesn't mess up the layout */
 }
 
 .hero-background h2 {
@@ -37,7 +39,6 @@ nav a {
 
 .hero-background p {
   font-size: 1.2rem;
-  margin-top: 0;
 }
 
 main, section {
