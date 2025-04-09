@@ -37,12 +37,17 @@ header h1 {
   font-size: 2rem;
   color: #1e40af;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 nav {
   display: flex;
+  justify-content: center;
   gap: 1.5rem;
   flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav a {
@@ -71,6 +76,11 @@ nav a:hover {
   justify-content: center;
 }
 
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .hero-content h1 {
   font-size: 3rem;
   font-weight: bold;
@@ -80,6 +90,7 @@ nav a:hover {
 .hero-content p {
   font-size: 1.25rem;
   max-width: 600px;
+  margin: 0 auto;
 }
 
 .cta-btn {
@@ -91,6 +102,7 @@ nav a:hover {
   border-radius: 9999px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  display: inline-block;
 }
 
 .cta-btn:hover {
@@ -101,7 +113,7 @@ nav a:hover {
 .featured-posts {
   padding: 4rem 2rem;
   max-width: 1200px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .featured-posts h2 {
@@ -115,6 +127,7 @@ nav a:hover {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 2rem;
+  justify-items: center;
 }
 
 .post-card {
@@ -123,8 +136,8 @@ nav a:hover {
   border-radius: 24px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  position: relative;
-  overflow: hidden;
+  width: 100%;
+  max-width: 350px;
 }
 
 .post-card:hover {
@@ -136,18 +149,20 @@ nav a:hover {
   margin-top: 1rem;
   font-size: 1.25rem;
   color: #1e3a8a;
+  text-align: center;
 }
 
 .post-card a {
   text-decoration: none;
   color: inherit;
+  display: block;
 }
 
 /* ========== Main Blog Page ========== */
 main {
   padding: 4rem 2rem;
   max-width: 900px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 article {
@@ -156,11 +171,6 @@ article {
   padding: 2rem;
   border-radius: 16px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
-  transition: box-shadow 0.3s;
-}
-
-article:hover {
-  box-shadow: 0 14px 40px rgba(0, 0, 0, 0.1);
 }
 
 article h2 {
@@ -175,6 +185,4 @@ footer {
   background-color: #1e293b;
   color: white;
   margin-top: 4rem;
-  border-top: 6px solid #3b82f6;
-  font-size: 0.875rem;
 }
