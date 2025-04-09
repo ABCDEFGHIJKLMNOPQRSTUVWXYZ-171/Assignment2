@@ -21,26 +21,29 @@ nav a {
   font-weight: bold;
 }
 
-.hero {
-  padding: 2rem;
-  background: #000000; 
-  color: #ffffff; 
+.hero-background {
+  background-image: url('file:///C:/Users/dramo/Downloads/blogging-fun-content-creation-online-streaming-video-blog-young-girl-making-selfie-social-network-sharing-feedback-self-promotion-strategy-vector-isolated-concept-metaphor-illustration_335657-855.avif');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  color: white;
   text-align: center;
+  padding-top: 80px;
+  box-sizing: border-box;
 }
 
-.featured-posts {
-  display: flex;
-  justify-content: space-around;
-  margin: 2rem;
+  padding-top: 80px;
+  box-sizing: border-box;
 }
 
-.featured-posts article {
-  background: #ffffff; 
-  color: #000000; 
-  padding: 1rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  width: 30%;
+.hero-background h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-background p {
+  font-size: 1.2rem;
+  margin-top: 0;
 }
 
 main, section {
